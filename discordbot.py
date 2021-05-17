@@ -19,6 +19,6 @@ async def ping(ctx):
 
 @bot.command()
 async def rushia(ctx):
-    await ctx.send('haishin')
+    await ctx.send('配信予定')
     
 bot.run(token)
