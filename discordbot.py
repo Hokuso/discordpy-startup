@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def るしあ(ctx):
+async def rushia(ctx):
     await ctx.send('配信予定')
     
 bot.run(token)
